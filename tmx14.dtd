@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT tmx (header, body)>
+<!ELEMENT header ANY>
+<!ELEMENT body (tu+)>
+<!ELEMENT tu (prop, tuv+)>
+<!ELEMENT prop ANY>
+<!ELEMENT tuv (seg)>
+<!ELEMENT seg ANY>
+<!ATTLIST tmx 
+version CDATA #IMPLIED>
+<!ATTLIST header
+creationtool CDATA #IMPLIED
+creationtoolversion CDATA #IMPLIED
+datatype CDATA #IMPLIED
+segtype CDATA #IMPLIED
+adminlang CDATA #IMPLIED
+srclang CDATA #IMPLIED
+o-tmf CDATA #IMPLIED
+changedate CDATA #IMPLIED
+changeid CDATA #IMPLIED>
+<!ATTLIST tu 
+creationdate CDATA #IMPLIED
+creationid CDATA #IMPLIED
+id ID #IMPLIED>
+<!ATTLIST prop 
+type CDATA #IMPLIED>
+<!ATTLIST tuv 
+xml:lang NMTOKEN #IMPLIED
+mark CDATA #IMPLIED
+gender CDATA #IMPLIED
+experience CDATA #IMPLIED
+stage CDATA #IMPLIED
+genre CDATA #IMPLIED
+stress CDATA #IMPLIED
+conditions CDATA #IMPLIED
+year CDATA #IMPLIED
+type CDATA #IMPLIED
+affiliation CDATA #IMPLIED
+filesource CDATA #IMPLIED>
