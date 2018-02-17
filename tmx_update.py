@@ -149,7 +149,9 @@ def main():
 
         filesource = tuv_source.getAttribute('filesource')
 
+        # find id of the offending tu in new tmx that produces the error --- AttributeError: 'NoneType' object has no attribute 'data'
 
+        print(filesource)
 
         if (filesource, segment.firstChild.data.strip()) in existing:
 
