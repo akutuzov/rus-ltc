@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 # coding: utf-8
 import codecs
 import os
@@ -39,14 +39,14 @@ def main():
     empty = 0
     ids = set()
 
-    print >> sys.stderr, 'Parsing the base TMX...', oldtmxfile
+    print('Parsing the base TMX...', oldtmxfile, file=sys.stderr)
     oldtmx = minidom.parse(oldtmxfile)
 
     oldbody = oldtmx.getElementsByTagName("body")[0]
 
     old_translation_units = oldtmx.getElementsByTagName('tu')
-    print >> sys.stderr, len(old_translation_units), 'translation units found.'
-    print >> sys.stderr, 'Validating...'
+    print(len(old_translation_units), 'translation units found.', file=sys.stderr)
+    print('Validating...', file=sys.stderr)
 
     for tu in old_translation_units:
         tuvs = tu.getElementsByTagName("tuv")
@@ -64,7 +64,7 @@ def main():
             continue
         tu_id = int(tu.getAttribute('id'))
         if tu_id in ids:
-            print >> sys.stderr, 'The base TMX contains non-unique IDs! Stopping.'
+            print('The base TMX contains non-unique IDs! Stopping.', file=sys.stderr)
             exit()
         else:
             ids.add(tu_id)
@@ -72,16 +72,16 @@ def main():
         existing[(filesource, segment.firstChild.data.strip())] = tu.getAttribute('id')
 
     old_translation_units = oldtmx.getElementsByTagName("tu")
-    print >> sys.stderr, 'TUs with empty source segments or lacking source metadata removed from the base TMX:', empty
-    print >> sys.stderr, len(old_translation_units), 'translation units after validation.'
+    print('TUs with empty source segments or lacking source metadata removed from the base TMX:', empty, file=sys.stderr)
+    print(len(old_translation_units), 'translation units after validation.', file=sys.stderr)
 
-    print >> sys.stderr, "====="
-    print >> sys.stderr, "Parsing new TMX...", newtmxfile + '.tmx'
+    print("=====", file=sys.stderr)
+    print("Parsing new TMX...", newtmxfile + '.tmx', file=sys.stderr)
     newtmx = minidom.parse(newtmxfile + '.tmx')
 
     translation_units = newtmx.getElementsByTagName("tu")
-    print >> sys.stderr, len(translation_units), 'translation units found.'
-    print >> sys.stderr, 'Enriching new TMX with meta data...'
+    print(len(translation_units), 'translation units found.', file=sys.stderr)
+    print('Enriching new TMX with meta data...', file=sys.stderr)
     errors = 0
 
     for tu in translation_units:
@@ -89,9 +89,9 @@ def main():
         if len(props) == 1:
             props = props[0]
         else:
-            print >> sys.stderr, 'TU without file sources detected and deleted!'
-            print >> sys.stderr, tu.getAttributeNode('changeid').nodeValue.strip()
-            print >> sys.stderr, tu.getAttributeNode('changedate').nodeValue.strip()
+            print('TU without file sources detected and deleted!', file=sys.stderr)
+            print(tu.getAttributeNode('changeid').nodeValue.strip(), file=sys.stderr)
+            print(tu.getAttributeNode('changedate').nodeValue.strip(), file=sys.stderr)
             newbody = tu.parentNode
             newbody.removeChild(tu)
             errors += 1
@@ -106,8 +106,8 @@ def main():
         tuv_target.setAttribute('filesource', target + '.head.txt')
 
         if not os.path.isfile(os.path.join(newtmxfile, source + '.head.txt')):
-            print >> sys.stderr, 'Header not found for', source
-            print >> sys.stderr, 'Stopping.'
+            print('Header not found for', source, file=sys.stderr)
+            print('Stopping.', file=sys.stderr)
             exit()
         source_metafile = open(os.path.join(newtmxfile, source + '.head.txt')).readlines()
         target_metafile = open(os.path.join(newtmxfile, target + '.head.txt')).readlines()
@@ -133,22 +133,28 @@ def main():
                 tuv_target.setAttribute(attr, '')
 
     translation_units = newtmx.getElementsByTagName("tu")
-    print >> sys.stderr, 'Errors:', errors
-    print >> sys.stderr, len(translation_units), 'translation units in the new TMX after validation.'
-    print >> sys.stderr, "====="
+    print('Errors:', errors, file=sys.stderr)
+    print(len(translation_units), 'translation units in the new TMX after validation.', file=sys.stderr)
+    print("=====", file=sys.stderr)
 
-    print >> sys.stderr, 'Adding new TUs to the base TMX...'
+    print('Adding new TUs to the base TMX...', file=sys.stderr)
 
     counter = max(ids)
     for tu in translation_units:
         tuvs = tu.getElementsByTagName("tuv")
         (tuv_source, tuv_target) = tuvs
+        # print "Still working", tuv_source
         segment = tuv_source.getElementsByTagName("seg")[0]
+        # print type(segment)
+
         filesource = tuv_source.getAttribute('filesource')
 
+
+
         if (filesource, segment.firstChild.data.strip()) in existing:
+
             existing_tu_id = existing[(filesource, segment.firstChild.data.strip())]
-            print >> sys.stderr, 'Found matching source in the base TMX at the id', existing_tu_id
+            print('Found matching source in the base TMX at the id', existing_tu_id, file=sys.stderr)
             for old_tu in old_translation_units:
                 if old_tu.getAttribute('id') == existing_tu_id:
                     toadd = oldtmx.importNode(tuv_target, True)
@@ -160,12 +166,12 @@ def main():
             oldbody.appendChild(toadd)
 
     old_translation_units = oldtmx.getElementsByTagName("tu")
-    print >> sys.stderr, len(old_translation_units), 'translation units in the resulting TMX.'
+    print(len(old_translation_units), 'translation units in the resulting TMX.', file=sys.stderr)
 
     newfilename = 'rltc_' + newtmxfile + '.tmx'
     with codecs.open(newfilename, 'w', 'utf-8') as f:
         f.write(oldtmx.toxml())
-    print >> sys.stderr, 'New TMX saved to', newfilename
+    print('New TMX saved to', newfilename, file=sys.stderr)
 
 
 if __name__ == '__main__':
