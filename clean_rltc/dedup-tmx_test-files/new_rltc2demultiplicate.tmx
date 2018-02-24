@@ -1,0 +1,55 @@
+<?xml version="1.0" ?><!DOCTYPE tmx  SYSTEM 'tmx14.dtd'><tmx version="1.4">
+<header adminlang="EN" creationtool="Olifant" creationtoolversion="3.0.8.0" datatype="plaintext" segtype="sentence" srclang="all">
+</header>
+<body>
+
+<tu creationdate="20150120T063309Z" creationid="y" id="19375"><prop type="Txt::Note">EN_1_203-RU_1_203_1</prop>
+<tuv filesource="EN_1_203.head.txt" genre="Essay" type="Source" xml:lang="EN"><seg>While there's certainly something in Brad's quote,.</seg></tuv>
+<tuv affiliation="TSU" conditions="Ноme" experience="5f" filesource="RU_1_203_1.head.txt" gender="F" genre="Essay" mark="" stage="Final" stress="Routine" type="Translation" xml:lang="RU" year="2014"><seg>Конечно, в словах Брэда есть доля истины, но как мне кажется, в скором времени мы будем работать по-другому.</seg></tuv> <tuv affiliation="TSU" conditions="Ноme" experience="5f" filesource="RU_1_203_10.head.txt" gender="F" genre="Essay" mark="" stage="Final" stress="Routine" type="Translation" xml:lang="RU" year="2014"><seg>Несомненно, в словах Брэда Шугарса есть зерно правды, однако, я думаю, что в скором времени мы будем работать меньше.</seg></tuv><tuv affiliation="TSU" conditions="Ноme" experience="5f" filesource="RU_1_203_11.head.txt" gender="F" genre="Essay" mark="4" stage="Final" stress="Routine" type="Translation" xml:lang="RU" year="2014"><seg>И хотя Брэд определенно прав, я все же уверен, что продолжительность рабочего дня изменится в скором будущем.</seg></tuv><tuv affiliation="TSU" conditions="Ноme" experience="5f" filesource="RU_1_203_12.head.txt" gender="F" genre="Essay" mark="" stage="Final" stress="Routine" type="Translation" xml:lang="RU" year="2014"><seg>Конечно, в словах Брэда Шугарса что-то есть, но мне кажется, что в скором времени мы будем работать меньше.</seg></tuv><tuv affiliation="TSU" conditions="Ноme" experience="5f" filesource="RU_1_203_13.head.txt" gender="F" genre="Essay" mark="" stage="Final" stress="Routine" type="Translation" xml:lang="RU" year="2014"><seg>Хотя в словах Брэда и есть доля истины, я полагаю, что в скором времени мы изменим наш принцип работы.</seg></tuv><tuv affiliation="TSU" conditions="Ноme" experience="5f" filesource="RU_1_203_14.head.txt" gender="F" genre="Essay" mark="3" stage="Final" stress="Routine" type="Translation" xml:lang="RU" year="2014"><seg>В словах Брэда определенно есть доля истины, и я верю, что совсем скоро наш режим работы изменится.</seg></tuv><tuv affiliation="TSU" conditions="Ноme" experience="5f" filesource="RU_1_203_15.head.txt" gender="F" genre="Essay" mark="" stage="Final" stress="Routine" type="Translation" xml:lang="RU" year="2014"><seg>Безусловно высказывание Брэда не лишено смысла, но я хотел бы поговорить о другом, а именно о грядущих изменениях в режиме работы каждого человека.</seg></tuv></tu>
+
+<tu changedate="20150313T060457Z" changeid="audit" id="19376"><prop type="Txt::Note">EN_1_203-RU_1_203_1</prop>
+<tuv filesource="EN_1_203.head.txt" genre="Essay" type="Source" xml:lang="EN"><seg>As Google's Larry Page and others have said, the amount.</seg></tuv>
+<tuv affiliation="TSU" conditions="Ноme" experience="5f" filesource="RU_1_203_1.head.txt" gender="F" genre="Essay" mark="" stage="Final" stress="Routine" type="Translation" xml:lang="RU" year="2014"><seg>Многие, в том числе и Ларри Пейдж, основатель "Google", считают, что количество рабочих мест с развитием технологий будет снижаться.</seg></tuv> <tuv affiliation="TSU" conditions="Ноme" experience="5f" filesource="RU_1_203_10.head.txt" gender="F" genre="Essay" mark="" stage="Final" stress="Routine" type="Translation" xml:lang="RU" year="2014"><seg>Как правильно отметил Лари Пейдж, с развитием технологий количество рабочих мест будет сокращаться.</seg></tuv><tuv affiliation="TSU" conditions="Ноme" experience="5f" filesource="RU_1_203_11.head.txt" gender="F" genre="Essay" mark="4" stage="Final" stress="Routine" type="Translation" xml:lang="RU" year="2014"><seg>Как и многие, основатель компании Google Ларри Пейдж придерживается такого мнения, что с развитием технологий количество рабочих мест будет сокращаться.</seg></tuv><tuv affiliation="TSU" conditions="Ноme" experience="5f" filesource="RU_1_203_12.head.txt" gender="F" genre="Essay" mark="" stage="Final" stress="Routine" type="Translation" xml:lang="RU" year="2014"><seg>Как правильно сказал Ларри Пейдж, да и не только он, количество рабочих мест с развитием технологий сократится.</seg></tuv><tuv affiliation="TSU" conditions="Ноme" experience="5f" filesource="RU_1_203_13.head.txt" gender="F" genre="Essay" mark="" stage="Final" stress="Routine" type="Translation" xml:lang="RU" year="2014"><seg>Ларри Пейдж из компании "Гугл" (Google) и другие специалисты пришли к выводу, что из-за введения новых технологий может сократиться количество рабочих мест и профессий.</seg></tuv><tuv affiliation="TSU" conditions="Ноme" experience="5f" filesource="RU_1_203_14.head.txt" gender="F" genre="Essay" mark="3" stage="Final" stress="Routine" type="Translation" xml:lang="RU" year="2014"><seg>Со-основатель Google Ларри Пейдж и многие другие справедливо полагают, что с развитием технологий работы для людей будет все меньше.</seg></tuv><tuv affiliation="TSU" conditions="Ноme" experience="5f" filesource="RU_1_203_15.head.txt" gender="F" genre="Essay" mark="" stage="Final" stress="Routine" type="Translation" xml:lang="RU" year="2014"><seg>Существует мнение, которое поддерживают основатели компании Google и многие другие, что количество рабочих мест будет сокращаться по мере развития технологий.</seg></tuv></tu>
+
+
+<tu changedate="20170610T170808Z" changeid="Марина" creationdate="20170308T124225Z" creationid="y" id="23073"><prop type="Txt::Note">EN_1_271-RU_1_271_0</prop>
+<tuv affiliation="" conditions="" experience="" filesource="EN_1_271.head.txt" gender="" genre="Review" mark="" stage="" stress="" type="Source" xml:lang="EN" year=""><seg>Don't visit "Miss Peregrine's Home for Peculiar Children"</seg></tuv>
+<tuv affiliation="TSU" conditions="" experience="reference" filesource="RU_1_271_0.head.txt" gender="" genre="Review" mark="" stage="" stress="" type="Translation" xml:lang="RU" year="2016"><seg>Не ходите в "Дом странных детей мисс Перегрин"</seg></tuv> </tu>
+<tu changedate="20170610T172331Z" changeid="Марина" creationdate="20170308T124230Z" creationid="y" id="23155"><prop type="Txt::Note">EN_1_271-RU_1_271_12</prop>
+<tuv affiliation="" conditions="" experience="" filesource="EN_1_271.head.txt" gender="" genre="Review" mark="" stage="" stress="" type="Source" xml:lang="EN" year=""><seg>Don't visit "Miss Peregrine's Home for Peculiar Children"</seg></tuv>
+<tuv affiliation="TSU" conditions="Home" experience="" filesource="RU_1_271_12.head.txt" gender="" genre="Review" mark="" stage="Final" stress="Contest" type="Translation" xml:lang="RU" year="2016"><seg>Не ходите в "Дом"</seg></tuv> </tu>
+
+<tu changedate="20170610T171218Z" changeid="Марина" creationdate="20170308T124209Z" creationid="y" id="23095"><prop type="Txt::Note">EN_1_271-RU_1_271_1</prop>
+<tuv affiliation="" conditions="" experience="" filesource="EN_1_271.head.txt" gender="" genre="Review" mark="" stage="" stress="" type="Source" xml:lang="EN" year=""><seg>Don't visit "Miss Peregrine's Home for Peculiar Children"</seg></tuv>
+<tuv affiliation="TSU" conditions="Home" experience="" filesource="RU_1_271_1.head.txt" gender="" genre="Review" mark="" stage="Final" stress="Contest" type="Translation" xml:lang="RU" year="2016"><seg>Не ходите в "Дом странных детей мисс Перегрин"</seg></tuv> </tu>
+
+<tu changedate="20170610T171525Z" changeid="Марина" creationdate="20170308T124226Z" creationid="y" id="23115"><prop type="Txt::Note">EN_1_271-RU_1_271_10</prop>
+<tuv affiliation="" conditions="" experience="" filesource="EN_1_271.head.txt" gender="" genre="Review" mark="" stage="" stress="" type="Source" xml:lang="EN" year=""><seg>Don't visit "Miss Peregrine's Home for Peculiar Children"</seg></tuv>
+<tuv affiliation="TSU" conditions="Home" experience="" filesource="RU_1_271_10.head.txt" gender="" genre="Review" mark="" stage="Final" stress="Contest" type="Translation" xml:lang="RU" year="2016"><seg>Не ходите в "Дом странных детей Мисс Перегрин"</seg></tuv> </tu>
+
+<tu creationdate="20170308T124228Z" creationid="y" id="23135"><prop type="Txt::Note">EN_1_271-RU_1_271_11</prop>
+<tuv affiliation="" conditions="" experience="" filesource="EN_1_271.head.txt" gender="" genre="Review" mark="" stage="" stress="" type="Source" xml:lang="EN" year=""><seg>Don't visit "Miss Peregrine's Home for Peculiar Children"</seg></tuv>
+<tuv affiliation="TSU" conditions="Home" experience="" filesource="RU_1_270_11.head.txt" gender="" genre="Review" mark="" stage="Final" stress="Contest" type="Translation" xml:lang="RU" year="2016"><seg>Держитесь подальше от дома странных детей!</seg></tuv> </tu>
+
+
+
+
+
+
+
+<tu creationdate="20170308T124225Z" creationid="y" id="23074"><prop type="Txt::Note">EN_1_271-RU_1_271_0</prop>
+<tuv affiliation="" conditions="" experience="" filesource="EN_1_271.head.txt" gender="" genre="Review" mark="" stage="" stress="" type="Source" xml:lang="EN" year=""><seg>By Kyle Smith</seg></tuv>
+<tuv affiliation="TSU" conditions="" experience="reference" filesource="RU_1_271_0.head.txt" gender="" genre="Review" mark="" stage="" stress="" type="Translation" xml:lang="RU" year="2016"><seg>Кайл Смит</seg></tuv> </tu>
+
+<tu creationdate="20170308T124209Z" creationid="y" id="23096"><prop type="Txt::Note">EN_1_271-RU_1_271_1</prop>
+<tuv affiliation="" conditions="" experience="" filesource="EN_1_271.head.txt" gender="" genre="Review" mark="" stage="" stress="" type="Source" xml:lang="EN" year=""><seg>By Kyle Smith</seg></tuv>
+<tuv affiliation="TSU" conditions="Home" experience="" filesource="RU_1_271_1.head.txt" gender="" genre="Review" mark="" stage="Final" stress="Contest" type="Translation" xml:lang="RU" year="2016"><seg>RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR</seg></tuv> </tu>
+
+<tu creationdate="20170308T124226Z" creationid="y" id="23116"><prop type="Txt::Note">EN_1_271-RU_1_271_10</prop>
+<tuv affiliation="" conditions="" experience="" filesource="EN_1_271.head.txt" gender="" genre="Review" mark="" stage="" stress="" type="Source" xml:lang="EN" year=""><seg>By Kyle Smith</seg></tuv>
+<tuv affiliation="TSU" conditions="Home" experience="" filesource="RU_1_271_10.head.txt" gender="" genre="Review" mark="" stage="Final" stress="Contest" type="Translation" xml:lang="RU" year="2016"><seg>Келли Смит</seg></tuv> </tu>
+
+
+
+</body>
+</tmx>

@@ -1,0 +1,15 @@
+<?xml version="1.0" ?><!DOCTYPE tmx  SYSTEM 'tmx14.dtd'><tmx version="1.4">
+<header adminlang="EN" creationtool="Olifant" creationtoolversion="3.0.8.0" datatype="plaintext" segtype="sentence" srclang="all">
+</header>
+<body>
+<tu creationdate="20120525T172939Z" creationid="trc" id="0">
+<prop type="x-TXT:Note">EN_6_3-RU_6_3_1</prop>
+<tuv filesource="EN_6_3.head.txt" genre="Educational" type="Source" xml:lang="EN">
+<seg>Peter Lyon Those who depend upon the press – and upon the televised "news" programs – for their information about what is going in the world can be excused for believing that there is nothing to the United Nations but the Security Council and the General Assembly; that what goes on there is only an interminable, sterile debate, periodically punctured in the Security Council by Soviet vetoes; and that there is no achievement, no progress, no positive action proposed, planned, or indeed possible.</seg>
+</tuv>
+<tuv affiliation="TSU" conditions="Home" experience="4f" filesource="RU_6_3_1.head.txt" gender="F" genre="Educational" mark="3" stage="Final" stress="Routine" type="Translation" xml:lang="RU" year="2009">
+<seg>Автор: Питер Лион Тех, кто получают информацию о том, что происходит в мире сегодня из прессы и телевидения, нужно простить за то, что они не видят в ООН ничего кроме Совета безопасности и Генеральной ассамблеи, также, что проводимые там процессы касаются только бесконечных и бесплотных дебатов, периодически прерываемых вето Совета безопасности, и что не происходит сдвигов, нет прогресса, никакие положительные действия не предлагаются, не планируются и не кажутся возможными.</seg>
+</tuv>
+</tu>
+</body>
+</tmx>
