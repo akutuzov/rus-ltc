@@ -5,6 +5,8 @@ import os
 import sys
 from xml.dom import minidom
 import argparse
+## TODO надо обновлять словарь existing после каждого добавления целого TU (в районе строки 168); 
+## при этом хорошо бы учитывать имена файлов, иначе тексты оказываются невосстановимы из tmx
 
 """
 Takes as an input the base TMX file and a file with the new batch.
