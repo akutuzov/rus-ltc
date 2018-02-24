@@ -162,7 +162,7 @@ SECTION _1
 	RU_1_160 	Неблагоприятные дни	Educational	560 (part)	5
 	EN_1_161 	OC GUIDELINES This OC Guidelines gives guidelines to organizers about	Tech	771(part)	6
 	EN_1_162	Federal Aviation Administration Master Minimum Equipment List Aerospatiale Helicopter	As 355 Series	Tech	2367	1
-	RU _1_163 	Уважаемый Ян! Западно-Сибирский банк ОАО "Сбербанк России" информирует Вас	Letters	272	30
+	RU _1_163 	Уважаемый Ян! Западно-Сибирский банк ОАО Сбербанк России информирует Вас	Letters	272	30
 	EN_1_164	20. Payment on suspension or termination	Tech	3173	1
 	EN_1_165	Logistics Committee	Tech	1464	1
 	EMPTY				
@@ -211,7 +211,7 @@ SECTION _1
 	EN_1_209	Ethnic Tensions in Moscow Spook the City's Migrants	Informational	799	5
 	EN_1_210	When kids bury kids': Russia remembers 130 victims of Nord-Ost terror act 10 years on	Informational	978	4
 	EN_1_211	Fear vs. Radiation: The Mismatch	Informational	894	5
-	EN_1_212	UK industrialists have warned they face "catastrophic""	Informational	630	
+	EN_1_212	UK industrialists have warned they face catastrophic	Informational	630	
 	EN_1_213	American trio share Nobel economics prize for work on asset prices	Informational	824	4
 	RU_1_214	Жемчужина Сибири	Informational	329	12+ref
 	RU_1_215	Туризм в ТО: Событийный туризм 	Informational	196	2
@@ -389,7 +389,7 @@ SECTION _3
 SECTION_4					
 	EN_4_5	Double, oil and trouble May 23rd 2008	Informational	390	11
 	EN_4_7	Vital statistics May 29th 2008	Essay	387	11
-	EN_4_8	"And now I am going to play the organ", said Beste-Chetwynde.	Fiction	138	6
+	EN_4_8	And now I am going to play the organ, said Beste-Chetwynde.	Fiction	138	6
 	EN_4_9	There was a strong hope that Miss Simmonds' one eye would survive.	Fiction	129	6
 	EN_4_16	Choosing new friends The European Union is struggling to help Arab revolutionaries	Essay	982	3
 	EMPTY				
@@ -404,7 +404,7 @@ SECTION_4
 	EN_4_27	Don't ban Ban	Fiction	488	3
 	EN_4_28	In The Bank	Fiction	478	4
 	RU_4_29	22 декабря 2009 г. состоялось очередное заседание Коллегии экологов Общественного Совета г. Тюмени	Informational	310	16
-	RU_4_30	Владислав Квасов, управляющий Тюменским филиалом ОАО "Промсвязьбанк":	Speech	323	14
+	RU_4_30	Владислав Квасов, управляющий Тюменским филиалом ОАО Промсвязьбанк:	Speech	323	14
 	EN_4_31	China’s political cage	Essay	878	29
 	EN_4_32	Don't count on China to rescue the West	Essay	12582	1
 	EMPTY				
