@@ -35,7 +35,7 @@ for tu in tus:
 		if fls not in filesources and seg_text not in segs:
 			filesources.append(fls)
 			segs.append(seg_text)
-		elif seg_text in segs and fls in filesources:
+		elif fls in filesources: # makes sense to relax double-checking because strings occasionally (exactly 169 times!) don't coinside: and seg_text in segs 
 			tuv.parentNode.removeChild(tuv)
 			# print(seg_text)
 			badfiles.append(fls)
